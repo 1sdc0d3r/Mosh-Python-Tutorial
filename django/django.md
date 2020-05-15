@@ -90,7 +90,7 @@
   - pyshop -> settings
     TEMPLATES = [{"DIRS": [os.path.join(BASE_DIR, 'templates')]}]
     django -> templates -> base.html
-    {% block content %}
+    {% block content %} 
 
 - creates an empty spot for other html
 - content is block name
